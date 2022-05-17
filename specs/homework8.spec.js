@@ -1,8 +1,5 @@
-import fetch from 'node-fetch';
-import apiEmail from '../framework/services/email.index';
-import key from '../framework/config/email.param.index';
-import invalidKey from '../framework/config/email.invalid.param.index';
-import nullKey from '../framework/config/email.null.param.index';
+import { invalidKey, nullKey, key } from "../framework/config/email.index";
+import apiEmail from "../framework/services/email.index";
 
 describe('email tests', () => {
 
