@@ -27,6 +27,7 @@
   "homepage": "https://github.com/mnmlsniper/jsCourse#readme",
   "dependencies": {
     "@babel/preset-env": "^7.16.11",
+    "@faker-js/faker": "^6.1.2",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^27.5.1",
     "eslint": "^7.32.0",
@@ -35,7 +36,11 @@
     "eslint-plugin-jest": "^24.7.0",
     "husky": "^7.0.4",
     "jest-cli": "^27.5.1",
+    "jest-html-reporter": "^3.5.0",
     "lint-staged": "^11.2.6",
     "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "jest-allure": "^0.1.3"
   }
 }
