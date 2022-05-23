@@ -43,6 +43,8 @@ jobs:
           test-report.html
 
   allure_reports_pages:
+    runs-on: ubuntu-latest
+    steps:
     - name: Get Allure history
       uses: actions/checkout@v2
       if: always()
