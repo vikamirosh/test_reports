@@ -30,3 +30,6 @@ jobs:
         name: testReport
         path: |
           test-report.html
+    - name: Telegram Notify
+      uses: appleboy/telegram-action@0.0.3
+
